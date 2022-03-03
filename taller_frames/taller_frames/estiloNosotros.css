@@ -1,0 +1,64 @@
+#idVideo
+{
+    width: 590px;
+    height: 590px;
+}
+
+.video
+{
+    margin-top: 100px;
+    width: 590px;
+    height: 590px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactenosItem{
+    margin: auto;
+}
+
+.contactenos
+{
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.contenedorPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+.titulo{
+    position: fixed;
+    background: #fff;
+    width: 98%;
+    margin-top: -85px;
+    background-color: #c2ebca;
+    border: 2px solid #000;
+}
+
+body{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #ee8fab;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    margin-top: 20px;
+    padding: 48px 25px;
+    font-size: 25px;
+}
+
+img{
+    border-right: 2px solid #000;
+}

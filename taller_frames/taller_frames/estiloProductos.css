@@ -1,0 +1,70 @@
+body{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #ee8fab;
+}
+
+.contenedorAutomovil{
+    background: #c2ebca;
+    display: flex;
+    margin: auto;
+    margin-bottom: 55px;
+    border: 2px solid #000;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+
+.botonVer{
+    height: 40px;
+    font-size: 20px;
+    margin: auto;
+    color: #0741AD;
+    border: none;
+    background: #fff;
+}
+
+.contenedorPrincipal{
+    padding-top: 115px;
+}
+
+.titulo{
+    position: fixed;
+    background: #fff;
+    width: 98%;
+    margin-top: -9px;
+    background-color: #c2ebca;
+    border: 2px solid #000;
+}
+
+.botonVer:hover{
+    background: #0741AD;
+    color: #000;
+    width: 220px;
+    height: 60px;
+    font-size: 22px;
+    transition: 0.2s;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+p{
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+img{
+    border-right: 2px solid #000;
+}
+
+.contenedorAutomovil:hover{
+    transition: 0.8s;
+    width: 95%;
+    -webkit-box-shadow: 0px 0px 63px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 63px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 63px 10px rgba(0,0,0,0.75);
+}
